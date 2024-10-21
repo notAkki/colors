@@ -12,5 +12,5 @@ A simple web app that provides an easy way to copy and paste Tailwind CSS colors
 
 ## Tech Stack
 
--   **Next.js**: For the frontend of the app.
--   **Tailwind CSS**: Used for styling and the colors of course.
+-   **Next.js**: For the frontend of the app
+-   **Tailwind CSS**: Used for styling and the colors of course
