@@ -11,7 +11,7 @@ const Tailwind = () => {
                     <div className="w-full border border-zinc-500/0 grid grid-cols-11 gap-x-2">
                         {item.colors.map((color) => {
                             return (
-                                <div>
+                                <div key={`${item.name}-${color.scale}`}>
                                     <div className="group relative">
                                         <div
                                             className={`bg-${item.name}-${color.scale} h-32 rounded-md group-hover:scale-[1.07] transition-transform duration-100`}
