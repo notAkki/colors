@@ -6,9 +6,9 @@ A simple web app that provides an easy way to copy and paste Tailwind CSS colors
 
 ## Features
 
--   Access all default Tailwind colors conveniently organized in one place.
--   Easily Copy colors in multiple formats: Tailwind Classname, HEX, RGB, HSL.
--   Save time searching for Tailwind colors and manually converting between formats.
+-   Access all default Tailwind colors conveniently organized in one place
+-   Easily copy colors in multiple formats: Tailwind Classname, HEX, RGB, HSL
+-   Save time searching for Tailwind colors and manually converting between formats
 
 ## Tech Stack
 
