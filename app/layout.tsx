@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.className} bg-gradient-to-r from-zinc-950 to-zinc-900 text-white overscroll-none`}
+                className={`${inter.className} bg-gradient-to-r from-zinc-950 to-zinc-900 overscroll-none text-zinc-200`}
             >
                 {children}
                 <Toaster />

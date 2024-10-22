@@ -1,13 +1,22 @@
 import Tailwind from "@/components/Tailwind";
-
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import Image from "next/image";
+import { Alert, AlertDescription } from "@/components/ui/alert";
 
 export default function Home() {
     return (
-        <main className="min-h-screen p-10">
-            <div className="flex gap-8 items-center">
-                <div className="font-bold text-3xl">Tailwind Colors</div>
-                <Alert className="text-pretty w-72">
+        <main className="min-h-screen px-10 py-8">
+            <div className="flex items-center justify-between mb-8">
+                <div className="flex gap-4 items-center">
+                    <Image
+                        src="/logo.png"
+                        alt="Logo"
+                        width={40}
+                        height={40}
+                        className="w-16 h-16"
+                    />
+                    <div className="font-bold text-5xl">Colors</div>
+                </div>
+                <Alert className="text-pretty min-w-64 max-w-fit ml-4 ">
                     <AlertDescription>
                         Hover over colors and click to copy desired color format
                     </AlertDescription>
