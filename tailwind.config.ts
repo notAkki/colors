@@ -47,5 +47,6 @@ const config: Config = {
     theme: {},
     safelist: colorSafeList,
     plugins: [],
+    darkMode: "selector",
 };
 export default config;
